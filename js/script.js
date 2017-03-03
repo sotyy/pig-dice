@@ -80,19 +80,19 @@ $(document).ready(function() {
             $("#output").text("<h1> You Win!!!!</h1>");
         };
     });
-    /*-------------Animations--------------*/
-    $('.subtitle').click(function() {
-        nameOne = $("#nameOne").val();
-        nameTwo = $("#nameTwo").val();
-        if (nameOne === "" || nameTwo === "") {
-            alert("Enter a Name!");
-            return;
-        };
-        $('#introduction').slideUp("2000");
-        setTimeout(function() {
-            $('.container').slideDown(800);
-        }, 500)
-        $('.player1 h1').text(nameOne);
-        $('.player2 h1').text(nameTwo);
-    })
+    // /*-------------Animations--------------*/
+    // $('.subtitle').click(function() {
+    //     nameOne = $("#nameOne").val();
+    //     nameTwo = $("#nameTwo").val();
+    //     if (nameOne === "" || nameTwo === "") {
+    //         alert("Enter a Name!");
+    //         return;
+    //     };
+    //     $('#introduction').slideUp("2000");
+    //     setTimeout(function() {
+    //         $('.container').slideDown(800);
+    //     }, 500)
+    //     $('.player1 h1').text(nameOne);
+    //     $('.player2 h1').text(nameTwo);
+    // })
 }); /* doc .ready ending*/

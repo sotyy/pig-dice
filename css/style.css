@@ -3,7 +3,7 @@ body {
     background-image: url(".../img/gamer.jpg");
     background-color: #000;
     background-size: cover;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     font-family: 'Rokkitt', serif;
 }
 
