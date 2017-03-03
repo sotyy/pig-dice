@@ -1,6 +1,6 @@
 body {
     color: #fff;
-    background-image: url("../img/gamer.jpg");
+    background-image: url(".../img/gamer.jpg");
     background-color: #000;
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ input {
     color: blue;
 }
 
-#slogan {
+#name {
     text-align: center;
     color: red;
     padding: 40px;
@@ -97,8 +97,8 @@ input {
 
 .title {
     margin-top: 200px;
-    text-align: center;
     font-size: 100px;
+    text-align: center;
 }
 
 .subtitle {
@@ -175,4 +175,3 @@ input {
         margin-top: 6rem;
         margin-left: 0;
     }
-}
